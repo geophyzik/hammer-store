@@ -11,6 +11,7 @@ function getLanguageDetail (locale) {
 }
 
 const SelectedLanguage = ({ locale }) => {
+	console.log(locale, 'lolcaal')
 	const language = getLanguageDetail(locale)
 	const {langName, icon} = language
 	return (
