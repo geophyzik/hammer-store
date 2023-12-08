@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import { Avatar } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
 
 const renderAvatar = props => {
 	return <Avatar {...props} className={`ant-avatar-${props.type}`}>{props.name.slice(0, 2)}</Avatar>;

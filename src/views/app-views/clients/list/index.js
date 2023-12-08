@@ -1,16 +1,13 @@
 import React, { Component } from 'react'
-import { Card, Table, Tag, Tooltip, Button } from 'antd';
+import { Card, Table, Tooltip, Button } from 'antd';
 import { connect } from 'react-redux';
-import { EyeOutlined, DeleteOutlined } from '@ant-design/icons';
-import moment from 'moment';
+import { EyeOutlined } from '@ant-design/icons';
 import UserView from './UserView';
 import AvatarStatus from 'components/shared-components/AvatarStatus';
-// import { UserOutlined} from '@ant-design/icons';
 
 export class UserList extends Component {
 	render() {
 		const { users, userProfileVisible, selectedUser } = this.props;
-		// console.log(users[0]);
 		const tableColumns = [
 			{
 				title: 'User',
