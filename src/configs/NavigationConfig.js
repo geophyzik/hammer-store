@@ -38,7 +38,7 @@ const mainNavTree = [{
       breadcrumb: true,
       submenu: [
         {
-          key: 'apps-project-list',
+          key: 'main-catalog-goods',
           path: `${APP_PREFIX_PATH}/main/catalog/goods`,
           title: 'sidenav.main.catalog.goods',
           icon: '',
@@ -46,7 +46,7 @@ const mainNavTree = [{
           submenu: []
         },
         {
-          key: 'apps-project-scrumboard',
+          key: 'main-catalog-categories',
           path: `${APP_PREFIX_PATH}/main/catalog/categories`,
           title: 'sidenav.main.catalog.categories',
           icon: '',
@@ -54,7 +54,7 @@ const mainNavTree = [{
           submenu: []
         },
         {
-          key: 'apps-project-scrumboard',
+          key: 'main-catalog-collections',
           path: `${APP_PREFIX_PATH}/main/catalog/collections`,
           title: 'sidenav.main.catalog.collections',
           icon: '',
@@ -62,7 +62,7 @@ const mainNavTree = [{
           submenu: []
         },
         {
-          key: 'apps-project-scrumboard',
+          key: 'main-catalog-combo',
           path: `${APP_PREFIX_PATH}/main/catalog/combo`,
           title: 'sidenav.main.catalog.combo',
           icon: '',
@@ -88,10 +88,10 @@ const mainNavTree = [{
       submenu: [
         {
           key: 'main-clients-list',
-          path: `${APP_PREFIX_PATH}/main/clients/list`,
+          path: `${APP_PREFIX_PATH}/clients/list`,
           title: 'sidenav.main.clients.list',
           icon: '',
-          breadcrumb: true,
+          breadcrumb: false,
           submenu: []
         },
         {
